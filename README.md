@@ -8,6 +8,7 @@ grand_parent: Generation 4
 
 
 ```
-├── Production - Gerber + BOM, also zipped
-└── Schematic  - pdf with schematic
+├── Design      - Eagle file
+├── Production  - Gerber + BOM
+└── Schematic   - pdf with schematic
 ```
