@@ -1,3 +1,9 @@
+---
+title: Panel PCB
+parent: Hardware
+grand_parent: Generation 4
+---
+
 # Production files
 
 The `.art` files are GERBER RS274X files.

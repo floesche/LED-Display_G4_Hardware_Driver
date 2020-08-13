@@ -1,0 +1,11 @@
+# G4 Panel Hardware
+
+This repository is part of <https://reiserlab.github.io/Modular-LED-Display/>. It contains the hardware of G4 Panels.
+
+Files were collected from several email conversations. Design file is untested.
+
+```
+├── Design      - OrCAD `.BRD` file
+├── Production  - Gerber + BOM
+└── Schematic   - pdf with schematic
+```
