@@ -8,7 +8,7 @@ grand_parent: Generation 4
 
 
 ```
-├── Design      - Eagle file
+├── Design      - OrCAD `.BRD` file
 ├── Production  - Gerber + BOM
 └── Schematic   - pdf with schematic
 ```
