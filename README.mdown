@@ -5,7 +5,7 @@ This repository is part of <https://reiserlab.github.io/Modular-LED-Display/>. I
 Files were collected from several email conversations. If in doubt, trust the production files over the design files.
 
 ```
-├── production-v1p2                 - production files (gerber, drill, BOM, placement)
+├── production-v1                   - production files (gerber, drill, BOM, placement)
 ├── 2017-03-26_LED-Panel_G4_V1.brd  - OrCAD board design file
 ├── Driver_LED-Panel_16x16.pdf      - schematic
 └── README.mdown                    - this file
