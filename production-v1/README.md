@@ -1,7 +1,8 @@
 ---
 title: Panel PCB
-parent: Hardware
+parent: Setup
 grand_parent: Generation 4
+nav_order: 2
 ---
 
 # Production files
