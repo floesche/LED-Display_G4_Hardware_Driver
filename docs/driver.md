@@ -13,7 +13,7 @@ The driver board measures 40×40mm² and has four 4×4 male pins (>=v0.2) or two
 
 Historically, the driver used four off-the-shelf LED panels for each of the quadrants (<=v0.3). Since then, each of the quadrants has its own micro controller unit (MCU) that handles a matrix of 8×8 LEDs. The panels with two 2×6 connectors use I²C for the communication between comm and driver, since version v0.2 SPI was used for this internal communication as well. The MCUs translate the brightness commands for pixels into pulse-width modulation for individual LEDs.
 
-![Driver version 2.0 vs version 1.0](../assets/driver_v2.0_bottom_photo-wiring.jpg){:.ifr}
+![Driver version 2.0 vs version 1.0](../assets/driver_v2.0_bottom_photo-wiring.jpg){:.ifr .pop}
 
 The difference between driver-v2 and driver-v1 is the internal wiring of individual columns. The image on the right shows the LEDs on a driver with an overlay on how they are connected. The cyan and magenta lines show, which LEDs belong to a single column in [driver-v2.x](#driver-v2), the yellow lines on the right show the connections in [driver-v1.x](#driver-v1). Currently, we only share the design files for a [driver-v1.x](#driver-v1).
 
@@ -24,7 +24,7 @@ If you intend to use one-colored drivers, we recommend [driver-v1](#driver-v1) a
 ## Panel Driver PCB v2.x
 {:#driver-v2 .clear}
 
-![Driver version 2.0](../assets/driver_v2.0_top_photo.jpg){:.ifr}
+![Driver version 2.0](../assets/driver_v2.0_top_photo.jpg){:.ifr .pop}
 
 Driver boards >=v2.0 are PCBs measuring 40×40mm² and with the same connectors as the [driver-v1.x](#driver-v1). The strongest visible difference is in the location of the MCUs: in version-2.x the four square ATmega328 chips positioned in a straight line. The difference is in how the LEDs are connected: the first LED from the first row is connected to the second LED in the second row, the first in the third row,  the second in the fourth row, and so on. Basically, two neighboring columns are interleaved. This positioning increases the color resolution for multicolored displays especially with two colors. In most matrices, individual LEDs are addressed by closing a circuit for a row and column at the same time. The LED at the intersection of the activated row and column then turns on. Either the row or column needs to provide the current limiting resistor that is specific to the type of LED it connects to.
 
@@ -35,7 +35,7 @@ Functionally, the [driver-v2.x](#driver-v2) is very similar to the [driver-v1.x]
 ## Panel Driver PCB v1.x
 {:#driver-v1 .clear}
 
-![Driver version 1.2](../assets/driver_v1.2_top_photo.jpg){:.ifr}
+![Driver version 1.2](../assets/driver_v1.2_top_photo.jpg){:.ifr .pop}
 
 Driver boards >=v1.2 are 6 layer PCBs measuring 40×40mm². Note the different position of the MCUs, which makes this version easily distinguishable from [driver-v2.x](#driver-v2). The production files are currently available in version [driver-v1.5](https://github.com/floesche/Panel-G4-Hardware/tree/master/production-v1/). All components are SMD with the smallest component measuring 0402 (imperial) or 1005 (metric). Therefore factory assembly is recommended.
 
@@ -60,7 +60,7 @@ These designs are kept for historic reasons and to debug existing systems. If yo
 ## Panel Driver PCB v0.2 to 0.4
 {:.clear}
 
-![driver version 0.4 without LEDs](../assets/driver_v0.4_front.jpg){:.ifr}
+![driver version 0.4 without LEDs](../assets/driver_v0.4_front.jpg){:.ifr .pop}
 
 Earlier versions of the driver were designed for off-the-shelf LED matrices. Historically this is what has been used in Generation 3 LED arenas and before as well. The latest version of the off-the-shelf LED matrices version, which is designed for four 20×20mm² components, is [driver-v0.4.2](https://github.com/floesche/panels_g4_hardware/tree/master/atmega328/four_panel/20mm_matrix/ver4/driver). You can find the driver designs of earlier versions in the same repository by navigating a few directories up.
 
