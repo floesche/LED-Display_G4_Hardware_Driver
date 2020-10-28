@@ -5,9 +5,10 @@ grand_parent: Generation 4
 nav_order: 1
 ---
 
+1. TOC
+{:toc}
+
 # Driver PCB
-
-
 
 The driver board measures 40×40mm² and has four 4×4 male pins (>=v0.2) or two 2×6 female sockets (v0.1) on the bottom layer. The top of the driver board is either covered in LEDs (>=v1.0) or has connectors to off-the-shelf LED matrices. [Version 2](#driver-v2) makes the use of different colors easier, but is functionally very similar to [version 1](#driver-v1).
 
