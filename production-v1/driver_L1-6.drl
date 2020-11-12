@@ -4,8 +4,8 @@ T01C.2
 ;LEADER: 12 
 ;HEADER: 
 ;CODE  : ASCII 
-;FILE  : 2017-03-26_LED-Panel_G4_V1-1-6.drl for  ... layers TOP and BOTTOM
-;DESIGN: 2017-03-26_LED-Panel_G4_V1.brd
+;FILE  : LED Panel G4 V1, 03-26-2017-1-6-1-6.drl for  ... layers TOP and BOTTOM
+;DESIGN: LED Panel G4 V1, 03-26-2017.brd
 ;T01 Holesize 1. = 0.200000 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 555
 %
 G90

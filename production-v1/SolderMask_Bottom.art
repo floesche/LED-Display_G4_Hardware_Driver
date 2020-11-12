@@ -1,9 +1,9 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
-G04 Layout Name:  2017-03-26_LED-Panel_G4_V1.brd*
+G04 Layout Name:  LED Panel G4 V1, 03-26-2017.brd*
 G04 Film Name:    SolderMask_Bottom*
 G04 File Format:  Gerber RS274X*
 G04 File Origin:  Cadence Allegro 17.4-S007*
-G04 Origin Date:  Wed Nov 11 00:32:13 2020*
+G04 Origin Date:  Wed Nov 11 20:24:19 2020*
 G04 *
 G04 Layer:  VIA CLASS/SOLDERMASK_BOTTOM*
 G04 Layer:  PIN/SOLDERMASK_BOTTOM*
