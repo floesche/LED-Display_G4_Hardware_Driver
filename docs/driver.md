@@ -38,7 +38,7 @@ Functionally, the [driver-v2.x](#driver-v2) is very similar to the [driver-v1.x]
 
 ![Driver version 1.2](../assets/driver_v1.2_top_photo.jpg){:.ifr .pop}
 
-Driver boards >=v1.2 are 6 layer PCBs measuring 40×40mm². Note the different position of the MCUs, which makes this version easily distinguishable from [driver-v2.x](#driver-v2). The production files are currently available in version [driver-v1.5](https://github.com/floesche/Panel-G4-Hardware/tree/master/production-v1/). All components are SMD with the smallest component measuring 0402 (imperial) or 1005 (metric). Therefore factory assembly is recommended.
+Driver boards >=v1.2 are 6 layer PCBs measuring 40×40mm². Note the different position of the MCUs, which makes this version easily distinguishable from [driver-v2.x](#driver-v2). The production files are currently available in version [driver-v1.7](https://github.com/floesche/Panel-G4-Hardware/tree/master/production-v1/). All components are SMD with the smallest component measuring 0402 (imperial) or 1005 (metric). Therefore factory assembly is recommended.
 
 ### Function
 
