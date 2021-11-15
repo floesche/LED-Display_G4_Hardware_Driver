@@ -16,9 +16,9 @@ Historically, the driver used four off-the-shelf LED panels for each of the quad
 
 ![Driver version 2.0 vs version 1.0](assets/driver_v2p0_back_wiring_photo.jpg "Driver version 2.0 vs version 1.0"){:.ifr .pop}
 
-The difference between driver-v2 and driver-v1 is the internal wiring of individual columns. The image on the right shows the LEDs on a driver with an overlay on how they are connected. The cyan and magenta lines show, which LEDs belong to a single column in [driver-v2.x](#driver-v2), the yellow lines on the right show the connections in [driver-v1.x](#driver-v1). Currently, we only share the design files for a [driver-v1.x](#driver-v1).
+The difference between driver-v2 and driver-v1 is the internal wiring of individual columns. The image on the right shows the LEDs on a driver with an overlay on how they are connected. The cyan and magenta lines show, which LEDs belong to a single column in driver-v2.x, the yellow lines on the right show the connections in driver-v1.x. Currently, we only share the design files for a driver-v1.x.
 
-If you intend to use one-colored drivers, we recommend [driver-v1](#driver-v1) as they are slightly easier to debug on a hardware level, should that be necessary. Currently, we have not shared the [driver-v2](#driver-v2) designs, but please [get in contact]({{site.baseurl}}/Contact) if you would like to have them.
+If you intend to use one-colored drivers, we recommend driver-v1 as they are slightly easier to debug on a hardware level, should that be necessary. Currently, we have not shared the driver-v2 designs, but please [get in contact]({{site.baseurl}}/Contact) if you would like to have them.
 
 ## Panel Driver PCB v2.x (40mm)
 {:#driver-v2 .clear}
