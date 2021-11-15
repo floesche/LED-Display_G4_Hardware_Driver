@@ -79,6 +79,14 @@ Find the KiCad design files at `driver_40mm_atmega_v0p4` and have a look at the 
 
 Find the KiCad design files at `driver_40mm_atmega_v0p3` and have a look at the [schematics](assets/driver_40mm_atmega_v0p3_schematic.pdf).
 
+## Panel Driver v0.2
+{:.clear}
+
+![](assets/driver_40mm_atmega_v0p2_front.png){:.ifr .pop}
+![](assets/driver_40mm_atmega_v0p2_back.png){:.ifr .pop .clear}
+
+Find the KiCad design files at `driver_40mm_atmega_v0p3` and have a look at the [schematics](assets/driver_40mm_atmega_v0p2_schematic.pdf).
+
 ## Panel Driver PCB v0.2 to 0.5
 {:.clear}
 
