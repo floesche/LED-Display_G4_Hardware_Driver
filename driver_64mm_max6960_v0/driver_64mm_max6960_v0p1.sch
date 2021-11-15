@@ -566,7 +566,7 @@ F 3 "" H 11250 7800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_32mm_max6960_v0p1:74AHC1G126 U2
+L driver_64mm_max6960_v0p1:74AHC1G126 U2
 U 1 1 51F2B1B1
 P 12000 7450
 F 0 "U2" H 11750 7700 60  0000 C CNN
@@ -603,7 +603,7 @@ GND
 Text Label 15800 8300 2    60   ~ 0
 V+
 $Comp
-L driver_32mm_max6960_v0p1:CONN15 U5
+L driver_64mm_max6960_v0p1:CONN15 U5
 U 1 1 51F2AD2B
 P 16300 9000
 F 0 "U5" H 15550 9250 60  0000 C CNN
@@ -632,7 +632,7 @@ OSC
 Text Label 15800 7100 2    60   ~ 0
 MISO
 $Comp
-L driver_32mm_max6960_v0p1:CONN15 U4
+L driver_64mm_max6960_v0p1:CONN15 U4
 U 1 1 51F2AC1D
 P 16300 7300
 F 0 "U4" H 15550 7550 60  0000 C CNN
@@ -653,7 +653,7 @@ GND
 Text Label 15800 6600 2    60   ~ 0
 V+
 $Comp
-L driver_32mm_max6960_v0p1:LED-MATRIX-8X8 M3
+L driver_64mm_max6960_v0p1:LED-MATRIX-8X8 M3
 U 1 1 51F2A6FB
 P 7900 7350
 F 0 "M3" H 7600 8050 60  0000 C CNN
@@ -728,7 +728,7 @@ ROW_B2
 Text Label 8900 8600 0    60   ~ 0
 ROW_B1
 $Comp
-L driver_32mm_max6960_v0p1:LED-MATRIX-8X8 M4
+L driver_64mm_max6960_v0p1:LED-MATRIX-8X8 M4
 U 1 1 51F2A6FA
 P 7900 9100
 F 0 "M4" H 7600 9800 60  0000 C CNN
@@ -803,7 +803,7 @@ $EndComp
 Text Label 14800 1000 1    60   ~ 0
 v+
 $Comp
-L driver_32mm_max6960_v0p1:MAX6960 U3
+L driver_64mm_max6960_v0p1:MAX6960 U3
 U 1 1 51F292FC
 P 12050 3350
 F 0 "U3" H 12050 3250 60  0000 C CNN
@@ -980,7 +980,7 @@ Input Header
 Text Notes 16200 9800 2    60   ~ 0
 Output Header
 $Comp
-L driver_32mm_max6960_v0p1:LED-MATRIX-8X8 M2
+L driver_64mm_max6960_v0p1:LED-MATRIX-8X8 M2
 U 1 1 51612464
 P 3200 9050
 F 0 "M2" H 2900 9750 60  0000 C CNN
@@ -1119,7 +1119,7 @@ ROW_A2
 Text Label 2350 2800 2    60   ~ 0
 ROW_A1
 $Comp
-L driver_32mm_max6960_v0p1:LED-MATRIX-8X8 M1
+L driver_64mm_max6960_v0p1:LED-MATRIX-8X8 M1
 U 1 1 5161217C
 P 3200 7300
 F 0 "M1" H 2900 8000 60  0000 C CNN
@@ -1261,7 +1261,7 @@ F 3 "" H 5650 1700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_32mm_max6960_v0p1:MAX6960 U1
+L driver_64mm_max6960_v0p1:MAX6960 U1
 U 1 1 516112AF
 P 4050 3400
 F 0 "U1" H 4050 3300 60  0000 C CNN

@@ -129,13 +129,15 @@ The 32mm driver v0.1 was designed in 2012 and is basically the same as the Gener
 
 In 2013 there was an attempt to build 40mm drivers with a MAX6960, a "4-wire serially interfaced 8×8 matrix graphics LED driver" chip by Maxim Integrated. Have a look at the [schematics](assets/driver_40mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_40mm_max6960_v0p1`.
 
-## Panel Driver MAX6960 v0.1 (32mm)
+## Panel Driver MAX6960 v0.1 (64mm)
 {:.clear}
 
-![Rendering of the 32mm driver version 0.1 using a MAX6960 front](assets/driver_32mm_max6960_v0p1_front.png){:.ifr .pop}
-![Rendering of the 32mm driver version 0.1 using a MAX6960 back](assets/driver_32mm_max6960_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the 64mm driver version 0.1 using a MAX6960 front](assets/driver_64mm_max6960_v0p1_front.png){:.ifr .pop}
+![Rendering of the 64mm driver version 0.1 using a MAX6960 back](assets/driver_64mm_max6960_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the adapter between 32mm matrix and 64mm driver front](assets/adapter_32mm-64mm_v0p1_front.png){:.ifr .pop .clear}
+![Rendering of the adapter between 32mm matrix and 64mm driver back](assets/adapter_32mm-64mm_v0p1_back.png){:.ifr .pop .clear}
 
-There is also a 32mm version of an a MAX6960 driven driver, although presumably this was never produced. Have a look at the [schematics](assets/driver_32mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_40mm_max6960_v0p1`.
+There is also a 64mm version of an a MAX6960 driven driver using 4 pre-fabricated LED matrices with a 32mm footprint each for the display. Inside the project at `driver_64mm_max6960_v0/adapter_32mm-64mm_v0p1`, there are [schematics](assets/adapter_32mm-64mm_v0p1_schematic.pdf) and design files for an adapter pcb between the 32mm footprint of the pLED matrices and the 64mm of the driver. Judging by the available files, this designer was presumably never produced. Have a look at the [schematics](assets/driver_64mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_64mm_max6960_v0p1`.
 
 ## other Panel Drivers
 {:.clear}

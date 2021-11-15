@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name adapter-cache)(type Legacy)(uri ${KIPRJMOD}/adapter-cache.lib)(options "")(descr ""))
+  (lib (name led-matrix-8x8)(type Legacy)(uri ${KIPRJMOD}/led-matrix-8x8.lib)(options "")(descr ""))
+  (lib (name adapter_32mm-64mm_v0p1)(type Legacy)(uri ${KIPRJMOD}/adapter_32mm-64mm_v0p1.lib)(options "")(descr ""))
+)

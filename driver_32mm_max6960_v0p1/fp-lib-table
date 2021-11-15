@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name driver_32mm_max6960_v0p1)(type KiCad)(uri ${KIPRJMOD}/driver_32mm_max6960_v0p1.pretty)(options "")(descr ""))
-)
