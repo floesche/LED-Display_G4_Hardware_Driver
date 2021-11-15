@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name adapter_20mm-40mm_v0p2)(type Legacy)(uri ${KIPRJMOD}/adapter_20mm-40mm_v0p2.lib)(options "")(descr ""))
+)

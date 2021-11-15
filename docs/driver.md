@@ -36,7 +36,7 @@ Functionally, the driver-v2.x is very similar to the driver-v1.x. During the cre
 
 ![Driver version 1.2](assets/driver_v1p2_front_photo.jpg){:.ifr .pop}
 
-Driver boards >=v1.2 are 6 layer PCBs measuring 40×40mm². Note the different position of the MCUs, which makes this version easily distinguishable from driver-v2.x. The most recent production files are archived in `driver_40mm_atmega_v1/production_v1/driver-v1p7.zip` with a changelog available in the `driver_40mm_atmega_v1/production_v1/README.mdown` file. 
+Driver boards >=v1.2 are 6 layer PCBs measuring 40×40mm². Note the different position of the MCUs, which makes this version easily distinguishable from driver-v2.x. The most recent production files are archived in `driver_40mm_atmega_v1/production_v1/driver-v1p7.zip` with a changelog available in the `driver_40mm_atmega_v1/production_v1/README.mdown` file.
 
 The Panel Driver PCBs are built from 6 layers. The BOTTOM layer contains all LEDs, followed by the GND layer, two logic layers, a power layer, and the TOP layer for the electronic components such as the MCUs and connectors. All components are SMD with the smallest component measuring 0402 (imperial) or 1005 (metric). Therefore factory assembly is recommended.
 
@@ -126,8 +126,14 @@ The 32mm driver v0.1 was designed in 2012 and is basically the same as the Gener
 
 ![Rendering of the 40mm driver version 0.1 using a MAX6960 front](assets/driver_40mm_max6960_v0p1_front.png){:.ifr .pop}
 ![Rendering of the 32mm driver version 0.1 using a MAX6960 back](assets/driver_40mm_max6960_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the adapter between 20mm matrix and 40mm driver v0.1 front](assets/adapter_20mm-40mm_v0p1_front.png){:.ifr .pop .clear}
+![Rendering of the adapter between 20mm matrix and 40mm driver v0.1 back](assets/adapter_20mm-40mm_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the adapter between 20mm matrix and 40mm driver v0.2 front](assets/adapter_20mm-40mm_v0p2_front.png){:.ifr .pop .clear}
+![Rendering of the adapter between 20mm matrix and 40mm driver v0.2 back](assets/adapter_20mm-40mm_v0p2_back.png){:.ifr .pop .clear}
 
-In 2013 there was an attempt to build 40mm drivers with a MAX6960, a "4-wire serially interfaced 8×8 matrix graphics LED driver" chip by Maxim Integrated. Have a look at the [schematics](assets/driver_40mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_40mm_max6960_v0p1`.
+In 2013 there was an attempt to build 40mm drivers with a MAX6960, a "4-wire serially interfaced 8×8 matrix graphics LED driver" chip by Maxim Integrated. Have a look at the [schematics](assets/driver_40mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_40mm_max6960_v0`.
+
+In addition to the driver, this setup required another PCB as an adapter on the back of the LED matrix. The version 0.1 ([schematics](assets/adapter_20mm-40mm_v0p1_schematic.pdf)) used a 2-layer PCB, version 0.2 ([schematic](assets/adapter_20mm-40mm_v0p2_schematic.pdf)) uses a 4-layer process. The projects for the adapters are inside the `driver_40mm_max6960_v0/adapter_20mm-40mm_v0p1` and `driver_40mm_max6960_v0/adapter_20mm-40mm_v0p2` directories, the production files are inside `driver_40mm_max6960_v0/production_v0`.
 
 ## Panel Driver MAX6960 v0.1 (64mm)
 {:.clear}
