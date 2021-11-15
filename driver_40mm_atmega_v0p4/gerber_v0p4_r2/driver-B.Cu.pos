@@ -1,0 +1,32 @@
+### Module positions - created on Tue 03 Jan 2017 12:46:23 PM PST ###
+### Printed by Pcbnew version pcbnew (2013-jul-07)-stable
+## Unit = inches, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+U1       DMC2400UV        DMC2400UV           2.2244    -2.0118     270.0    B.Cu
+U2       DMC2400UV        DMC2400UV           2.1732    -2.1220     270.0    B.Cu
+U4       DMC2400UV        DMC2400UV           2.1693    -2.2953      90.0    B.Cu
+U5       DMC2400UV        DMC2400UV           2.7598    -2.5079     270.0    B.Cu
+U6       DMC2400UV        DMC2400UV           2.7598    -2.6654     270.0    B.Cu
+U7       DMC2400UV        DMC2400UV           2.7559    -2.7874     270.0    B.Cu
+U8       DMC2400UV        DMC2400UV           2.7598    -2.9252     270.0    B.Cu
+U9       DMC2400UV        DMC2400UV           2.1693    -2.7441     270.0    B.Cu
+U11      DMC2400UV        DMC2400UV           2.3543    -3.3898     270.0    B.Cu
+U12      DMC2400UV        DMC2400UV           2.2008    -3.2953     270.0    B.Cu
+U13      DMC2400UV        DMC2400UV           2.7559    -3.3425     270.0    B.Cu
+U14      DMC2400UV        DMC2400UV           2.5551    -3.3031     270.0    B.Cu
+U15      DMC2400UV        DMC2400UV           2.7559    -3.4803     270.0    B.Cu
+U17      DMC2400UV        DMC2400UV           2.9764    -2.0118     270.0    B.Cu
+U18      DMC2400UV        DMC2400UV           2.7598    -2.1457     270.0    B.Cu
+U20      DMC2400UV        DMC2400UV           2.7559    -2.3701     270.0    B.Cu
+U21      DMC2400UV        DMC2400UV           3.3110    -2.0157     270.0    B.Cu
+U22      DMC2400UV        DMC2400UV           3.3386    -2.3189     270.0    B.Cu
+U23      DMC2400UV        DMC2400UV           3.1063    -2.6417     270.0    B.Cu
+U24      DMC2400UV        DMC2400UV           3.3268    -2.6693     270.0    B.Cu
+U25      DMC2400UV        DMC2400UV           2.9646    -2.6220     270.0    B.Cu
+U26      DMC2400UV        DMC2400UV           2.7559    -3.0748     270.0    B.Cu
+U27      DMC2400UV        DMC2400UV           2.7559    -3.2126     270.0    B.Cu
+U30      DMC2400UV        DMC2400UV           3.2756    -3.3228     270.0    B.Cu
+U31      DMC2400UV        DMC2400UV           3.3071    -3.4921     270.0    B.Cu
+U32      DMC2400UV        DMC2400UV           3.1142    -3.4094     270.0    B.Cu
+## End
