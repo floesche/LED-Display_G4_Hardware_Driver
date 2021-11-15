@@ -20,7 +20,7 @@ The difference between driver-v2 and driver-v1 is the internal wiring of individ
 
 If you intend to use one-colored drivers, we recommend [driver-v1](#driver-v1) as they are slightly easier to debug on a hardware level, should that be necessary. Currently, we have not shared the [driver-v2](#driver-v2) designs, but please [get in contact]({{site.baseurl}}/Contact) if you would like to have them.
 
-## Panel Driver PCB v2.x
+## Panel Driver PCB v2.x (40mm)
 {:#driver-v2 .clear}
 
 ![Driver version 2.0](assets/driver_v2p0_front_photo.jpg "Driver version 2.0"){:.ifr .pop}
@@ -31,7 +31,7 @@ For the G4 drivers, a column of eight LEDs within a quadrant is connected to suc
 
 Functionally, the [driver-v2.x](#driver-v2) is very similar to the [driver-v1.x](#driver-v1). During the creation of visual patterns, a [configuration option has to be set]({{site.baseurl}}/Generation%204/Display_Tools/pattern-generator.md#checkerboard), everything is the same for setting up and running an arena with either [driver-v1.x](#driver-v1) or [driver-v2.x](#driver-v2). But because of this small difference, mixing different versions of driver-boards in the same arena is currently not supported.
 
-## Panel Driver PCB v1.x
+## Panel Driver PCB v1.x (40mm)
 {:#driver-v1 .clear}
 
 ![Driver version 1.2](assets/driver_v1p2_front_photo.jpg){:.ifr .pop}
@@ -54,8 +54,8 @@ The Panel Driver PCBs are built from 6 layers. The BOTTOM layer contains all LED
 
 # Historic designs
 
-![driver version 0.4 without LEDs](assets/driver_v0p4_front_photo.jpg){:.ifr .pop}
-![driver version 0.2, 0.3, or 0.4 with LED matrix](assets/driver_v0p2_back_photo.jpg "driver version 0.2, 0.3, or 0.4 with LED matrix"){:.ifr .pop .clear}
+![Photo of a 40mm driver version 0.4 without LEDs](assets/driver_v0p4_front_photo.jpg "Photo of a 40mm driver version 0.4 without LEDs"){:.ifr .pop}
+![Photo of a 40mm driver version 0.1…0.4 with an LED matrix](assets/driver_v0p2_back_photo.jpg "Photo of a 40mm driver version 0.1…0.4 with an LED matrix"){:.ifr .pop .clear}
 
 These designs are kept for historic reasons and to debug existing systems. If you have one of them, you probably know what to do and just need the files. If you are building a new system, don't use them. You can find the designs of the older drivers in the same repository as the [comm board]({{site.baseurl}}/Generation%204/Hardware/docs/comm.html).
 
@@ -66,16 +66,16 @@ The difference between the historic versions (except [v0.1](#driver-v0p1)!) is m
 ## Panel Driver v0.5 (WIP)
 {:#driver-v0p5 .clear}
 
-![](assets/driver_40mm_atmega_v0p5_front.png){:.ifr .pop}
-![](assets/driver_40mm_atmega_v0p5_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version 0.5 front](assets/driver_40mm_atmega_v0p5_front.png "Rendering of the 40mm driver version 0.5 front"){:.ifr .pop}
+![Rendering of the 40mm driver version 0.5 back](assets/driver_40mm_atmega_v0p5_back.png "Rendering of the 40mm driver version 0.5 back"){:.ifr .pop .clear}
 
 Version 0.5 was the first attempt to build a driver with a custom LED matrix instead of the pre-fabricated 20×20mm² LED matrices. This project never finished as it was handed over from IO Rodeo to jET at the time, but the work-in-progress files are archived at `driver_40mm_atmega_v0p5`. The [schematics](assets/driver_40mm_atmega_v0p5_schematic.pdf) are very similar to previous versions, replacing the pre-fabricated LED matrices with a custom grid of rows and columns.
 
 ## Panel Driver v0.4
 {:#driver-v0p4 .clear}
 
-![](assets/driver_40mm_atmega_v0p4_front.png){:.ifr .pop}
-![](assets/driver_40mm_atmega_v0p4_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version 0.4 front](assets/driver_40mm_atmega_v0p4_front.png){:.ifr .pop}
+![Rendering of the 40mm driver version 0.4 back](assets/driver_40mm_atmega_v0p4_back.png){:.ifr .pop .clear}
 
 This is the latest version of the driver with prefabricated LED matrices.
 
@@ -84,28 +84,36 @@ Find the KiCad design files at `driver_40mm_atmega_v0p4` and have a look at the 
 ## Panel Driver v0.3
 {:#driver-v0p3 .clear}
 
-![](assets/driver_40mm_atmega_v0p3_front.png){:.ifr .pop}
-![](assets/driver_40mm_atmega_v0p3_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version 0.3 front](assets/driver_40mm_atmega_v0p3_front.png){:.ifr .pop}
+![Rendering of the 40mm driver version 0.3 back](assets/driver_40mm_atmega_v0p3_back.png){:.ifr .pop .clear}
 
 Find the KiCad design files at `driver_40mm_atmega_v0p3` and have a look at the [schematics](assets/driver_40mm_atmega_v0p3_schematic.pdf).
 
 ## Panel Driver v0.2
 {:#driver-v0p2 .clear}
 
-![](assets/driver_40mm_atmega_v0p2_front.png){:.ifr .pop}
-![](assets/driver_40mm_atmega_v0p2_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version 0.2 front](assets/driver_40mm_atmega_v0p2_front.png){:.ifr .pop}
+![Rendering of the 40mm driver version 0.2 back](assets/driver_40mm_atmega_v0p2_back.png){:.ifr .pop .clear}
 
 Find the KiCad design files at `driver_40mm_atmega_v0p1` and have a look at the [schematics](assets/driver_40mm_atmega_v0p2_schematic.pdf).
 
 ## Panel Driver v0.1
 {:#driver-v0p1 .clear}
 
-![](assets/driver_40mm_atmega_v0p1_front.png){:.ifr .pop}
-![](assets/driver_40mm_atmega_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version 0.1 front](assets/driver_40mm_atmega_v0p1_front.png){:.ifr .pop}
+![Rendering of the 40mm driver version 0.1 back](assets/driver_40mm_atmega_v0p1_back.png){:.ifr .pop .clear}
 
 The first driver with ATmega MCU used I²C for the communication between controller and arena. They are not compatible with later versions.
 
 Find the KiCad design files at `driver_40mm_atmega_v0p1` and have a look at the [schematics](assets/driver_40mm_atmega_v0p1_schematic.pdf).
+
+## 32mm Panel Driver v0.1
+{:#driver-32-v0p1 .clear}
+
+![Rendering of the 32mm driver version 0.1 front](assets/driver_32mm_atmega_v0p1_front.png){:.ifr .pop}
+![Rendering of the 32mm driver version 0.1 back](assets/driver_32mm_atmega_v0p1_back.png){:.ifr .pop .clear}
+
+The 32mm driver v0.1 was designed in 2012 and is basically the same as the Generation 2 panel. The Find the KiCad design files at `driver_32mm_atmega_v0p1` and have a look at the [schematics](assets/driver_32mm_atmega_v0p1_schematic.pdf).
 
 ## other Panel Drivers
 {:.clear}
