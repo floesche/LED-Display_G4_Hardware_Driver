@@ -107,6 +107,15 @@ The first driver with ATmega MCU used I²C for the communication between control
 
 Find the KiCad design files at `driver_40mm_atmega_v0p1` and have a look at the [schematics](assets/driver_40mm_atmega_v0p1_schematic.pdf).
 
+## 32mm Panel Driver v0.2 (WIP)
+{:#driver-32-v0p2 .clear}
+
+![Rendering of the 32mm driver version 0.2 front](assets/driver_32mm_atmega_v0p2_front.png){:.ifr .pop}
+![Rendering of the 32mm driver version 0.2 back](assets/driver_32mm_atmega_v0p2_back.png){:.ifr .pop .clear}
+
+The 32mm driver v0.2 was designed in 2012. Compared to [version 0.1](#driver-32-v0p1) it uses MOSFETs. The [schematics](assets/driver_32mm_atmega_v0p2_schematic.pdf) have already been updated, the board design itself hasn't been done yet. The Find the KiCad design files at `driver_32mm_atmega_v0p2`.
+
+
 ## 32mm Panel Driver v0.1
 {:#driver-32-v0p1 .clear}
 
