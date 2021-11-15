@@ -54,9 +54,17 @@ The Panel Driver PCBs are built from 6 layers. The BOTTOM layer contains all LED
 
 # Historic designs
 
+![driver version 0.4 without LEDs](assets/driver_v0p4_front_photo.jpg){:.ifr .pop}
+![driver version 0.2, 0.3, or 0.4 with LED matrix](assets/driver_v0p2_back_photo.jpg "driver version 0.2, 0.3, or 0.4 with LED matrix"){:.ifr .pop .clear}
+
 These designs are kept for historic reasons and to debug existing systems. If you have one of them, you probably know what to do and just need the files. If you are building a new system, don't use them. You can find the designs of the older drivers in the same repository as the [comm board]({{site.baseurl}}/Generation%204/Hardware/docs/comm.html).
 
+Earlier versions of the driver were designed for off-the-shelf LED matrices. Historically this is what has been used in Generation 3 LED arenas and before as well. The latest version of the off-the-shelf LED matrices version, which is designed for four 20×20mm² components, is driver v0.4 at `driver_40mm_atmega_v0p4/production_v0`.
+
+The difference between the historic versions (except [v0.1](#driver-v0p1)!) is minimal and can be documented if necessary. In general, they should be compatible between design iterations. Please [get in contact]({{site.baseurl}}/Contact) if you need further information.
+
 ## Panel Driver v0.5 (WIP)
+{:#driver-v0p5 .clear}
 
 ![](assets/driver_40mm_atmega_v0p5_front.png){:.ifr .pop}
 ![](assets/driver_40mm_atmega_v0p5_back.png){:.ifr .pop .clear}
@@ -64,15 +72,17 @@ These designs are kept for historic reasons and to debug existing systems. If yo
 Version 0.5 was the first attempt to build a driver with a custom LED matrix instead of the pre-fabricated 20×20mm² LED matrices. This project never finished as it was handed over from IO Rodeo to jET at the time, but the work-in-progress files are archived at `driver_40mm_atmega_v0p5`. The [schematics](assets/driver_40mm_atmega_v0p5_schematic.pdf) are very similar to previous versions, replacing the pre-fabricated LED matrices with a custom grid of rows and columns.
 
 ## Panel Driver v0.4
-{:.clear}
+{:#driver-v0p4 .clear}
 
 ![](assets/driver_40mm_atmega_v0p4_front.png){:.ifr .pop}
 ![](assets/driver_40mm_atmega_v0p4_back.png){:.ifr .pop .clear}
 
+This is the latest version of the driver with prefabricated LED matrices.
+
 Find the KiCad design files at `driver_40mm_atmega_v0p4` and have a look at the [schematics](assets/driver_40mm_atmega_v0p4_schematic.pdf).
 
 ## Panel Driver v0.3
-{:.clear}
+{:#driver-v0p3 .clear}
 
 ![](assets/driver_40mm_atmega_v0p3_front.png){:.ifr .pop}
 ![](assets/driver_40mm_atmega_v0p3_back.png){:.ifr .pop .clear}
@@ -80,28 +90,24 @@ Find the KiCad design files at `driver_40mm_atmega_v0p4` and have a look at the 
 Find the KiCad design files at `driver_40mm_atmega_v0p3` and have a look at the [schematics](assets/driver_40mm_atmega_v0p3_schematic.pdf).
 
 ## Panel Driver v0.2
-{:.clear}
+{:#driver-v0p2 .clear}
 
 ![](assets/driver_40mm_atmega_v0p2_front.png){:.ifr .pop}
 ![](assets/driver_40mm_atmega_v0p2_back.png){:.ifr .pop .clear}
 
-Find the KiCad design files at `driver_40mm_atmega_v0p3` and have a look at the [schematics](assets/driver_40mm_atmega_v0p2_schematic.pdf).
+Find the KiCad design files at `driver_40mm_atmega_v0p1` and have a look at the [schematics](assets/driver_40mm_atmega_v0p2_schematic.pdf).
 
-## Panel Driver PCB v0.2 to 0.5
-{:.clear}
+## Panel Driver v0.1
+{:#driver-v0p1 .clear}
 
-Earlier versions of the driver were designed for off-the-shelf LED matrices. Historically this is what has been used in Generation 3 LED arenas and before as well. The latest version of the off-the-shelf LED matrices version, which is designed for four 20×20mm² components, is [driver-v0.4.2](https://github.com/floesche/panels_g4_hardware/tree/master/atmega328/four_panel/20mm_matrix/ver4/driver). You can find the driver designs of earlier versions in the same repository by navigating a few directories up.
-
-![driver version 0.4 without LEDs](assets/driver_v0p4_front_photo.jpg){:.ifr .pop}
-![driver version 0.2, 0.3, or 0.4 with LED matrix](assets/driver_v0p2_back_photo.jpg "driver version 0.2, 0.3, or 0.4 with LED matrix"){:.ifr .pop .clear}
-The difference between these versions is minimal and can be documented if necessary. In general, they should be compatible between design iterations. Please [get in contact]({{site.baseurl}}/Contact) if you need further information.
-{:.clear}
-
-## Panel Driver PCB v0.1
-{:#driver-v0p1}
+![](assets/driver_40mm_atmega_v0p1_front.png){:.ifr .pop}
+![](assets/driver_40mm_atmega_v0p1_back.png){:.ifr .pop .clear}
 
 The first driver with ATmega MCU used I²C for the communication between controller and arena. They are not compatible with later versions.
 
+Find the KiCad design files at `driver_40mm_atmega_v0p1` and have a look at the [schematics](assets/driver_40mm_atmega_v0p1_schematic.pdf).
+
 ## other Panel Drivers
+{:.clear}
 
 The [panel_g4_hardware](https://github.com/floesche/panels_g4_hardware) repository contains two other directory trees with designs using max6960 or stm32 MCUs. They were initial prototypes from around 2013 but should not exist in the wild. [Get in contact]({{site.baseurl}}/Contact) if you have one and need explanation about the nature of these historic files.
