@@ -1,0 +1,26 @@
+### Module positions - created on Mon 09 Jan 2017 01:00:11 PM PST ###
+### Printed by Pcbnew version pcbnew (2013-jul-07)-stable
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       0.1uF            SM0603              4.2362    -3.3012     180.0    Front
+C2       0.1uF            SM0603              4.8898    -3.6161       0.0    Front
+R1       160              SM0603              4.2343    -3.1634       0.0    Front
+R2       160              SM0603              5.1496    -3.5433     270.0    Front
+R3       160              SM0603              5.1457    -3.3701     270.0    Front
+R4       160              SM0603              3.9882    -2.8976     270.0    Front
+R5       160              SM0603              5.1457    -3.1614     270.0    Front
+R6       160              SM0603              3.9882    -3.0748     270.0    Front
+R7       160              SM0603              3.9921    -3.7047     270.0    Front
+R8       160              SM0603              4.0197    -3.8780       0.0    Front
+R9       10K              SM0603              5.0906    -2.7323       0.0    Front
+U1       DMC2400UV        DMC2400UV           4.0709    -2.7677       0.0    Front
+U2       DMC2400UV        DMC2400UV           3.9882    -3.5000       0.0    Front
+U3       DMC2400UV        DMC2400UV           5.0866    -2.8386     270.0    Front
+U4       DMC2400UV        DMC2400UV           3.9921    -3.2362       0.0    Front
+U5       DMC2400UV        DMC2400UV           5.1102    -3.8819     270.0    Front
+U6       DMC2400UV        DMC2400UV           5.1417    -2.9803       0.0    Front
+U7       DMC2400UV        DMC2400UV           5.1063    -3.7598     270.0    Front
+U8       DMC2400UV        DMC2400UV           4.9331    -3.2008       0.0    Front
+X1       CER_RESO         XZL_CR              4.2421    -3.5000     270.0    Front
+## End
