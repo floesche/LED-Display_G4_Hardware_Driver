@@ -1,0 +1,50 @@
+### Module positions - created on Tue 14 Apr 2015 11:07:17 AM PDT ###
+### Printed by Pcbnew version pcbnew (2013-jul-07)-stable
+## Unit = inches, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       0.1uF            SM0603_Capa         2.3740    -2.5276     270.0    F.Cu
+C2       0.1uF            SM0603_Capa         2.3740    -3.1299     270.0    F.Cu
+C3       0.1uF            SM0603_Capa         2.9390    -2.4528     270.0    F.Cu
+C4       0.1uF            SM0603_Capa         3.1122    -3.4094       0.0    F.Cu
+IC1      ATMEGA328P-M     QFN32               2.4213    -2.2343      90.0    F.Cu
+IC2      ATMEGA328P-M     QFN32               2.4213    -2.8642      90.0    F.Cu
+IC3      ATMEGA328P-M     QFN32               3.1299    -2.2343      90.0    F.Cu
+IC4      ATMEGA328P-M     QFN32               3.1299    -2.8642      90.0    F.Cu
+R1       4.7k             SM0603_Resistor     2.3228    -2.6476       0.0    F.Cu
+R2       4.7k             SM0603_Resistor     2.1457    -2.8248      90.0    F.Cu
+R3       4.7k             SM0603_Resistor     3.2480    -2.0079       0.0    F.Cu
+R4       4.7k             SM0603_Resistor     3.1102    -3.4921     180.0    F.Cu
+R5       180              SM0603_Resistor     2.1850    -2.0118     180.0    F.Cu
+R6       180              SM0603_Resistor     2.1713    -2.3504     180.0    F.Cu
+R7       180              SM0603_Resistor     2.1752    -2.6476     180.0    F.Cu
+R8       180              SM0603_Resistor     2.4547    -2.0118     180.0    F.Cu
+R9       180              SM0603_Resistor     2.7559    -2.0079     180.0    F.Cu
+R10      180              SM0603_Resistor     2.7559    -2.1142     180.0    F.Cu
+R11      180              SM0603_Resistor     2.7559    -2.2165     180.0    F.Cu
+R12      180              SM0603_Resistor     2.7559    -2.3150     180.0    F.Cu
+R13      180              SM0603_Resistor     2.2047    -3.2874     180.0    F.Cu
+R14      180              SM0603_Resistor     2.2047    -3.3858     180.0    F.Cu
+R15      180              SM0603_Resistor     2.3622    -3.3858     180.0    F.Cu
+R16      180              SM0603_Resistor     2.3622    -3.4843     180.0    F.Cu
+R17      180              SM0603_Resistor     2.7559    -2.8740     180.0    F.Cu
+R18      180              SM0603_Resistor     2.5591    -3.3169       0.0    F.Cu
+R19      180              SM0603_Resistor     2.5591    -3.4055       0.0    F.Cu
+R20      180              SM0603_Resistor     2.5591    -3.4941       0.0    F.Cu
+R21      180              SM0603_Resistor     2.7559    -2.4173       0.0    F.Cu
+R22      180              SM0603_Resistor     2.7559    -2.5295       0.0    F.Cu
+R23      180              SM0603_Resistor     2.7559    -2.6476       0.0    F.Cu
+R24      180              SM0603_Resistor     2.7559    -2.7559       0.0    F.Cu
+R25      180              SM0603_Resistor     2.9823    -2.0079       0.0    F.Cu
+R26      180              SM0603_Resistor     3.3661    -2.0276     270.0    F.Cu
+R27      180              SM0603_Resistor     3.3661    -2.2717      90.0    F.Cu
+R28      180              SM0603_Resistor     3.3189    -2.6535       0.0    F.Cu
+R29      180              SM0603_Resistor     2.9390    -3.1929     270.0    F.Cu
+R30      180              SM0603_Resistor     2.9528    -3.2972     180.0    F.Cu
+R31      180              SM0603_Resistor     2.9626    -3.3957     180.0    F.Cu
+R32      180              SM0603_Resistor     2.9626    -3.4941     180.0    F.Cu
+R33      180              SM0603_Resistor     3.3661    -2.7559     270.0    F.Cu
+R34      180              SM0603_Resistor     3.3150    -3.4961       0.0    F.Cu
+R35      180              SM0603_Resistor     3.3130    -3.4094       0.0    F.Cu
+R36      180              SM0603_Resistor     3.3110    -3.3228       0.0    F.Cu
+## End

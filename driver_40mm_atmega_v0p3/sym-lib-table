@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name driver_40mm_atmega_v0p3)(type Legacy)(uri ${KIPRJMOD}/driver_40mm_atmega_v0p3.lib)(options "")(descr ""))
+  (lib (name driver_40mm_atmega_v0p3-rescue)(type Legacy)(uri ${KIPRJMOD}/driver_40mm_atmega_v0p3-rescue.lib)(options "")(descr ""))
+)
