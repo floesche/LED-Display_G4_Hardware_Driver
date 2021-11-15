@@ -1,4 +1,4 @@
-update=Mon 15 Nov 2021 03:54:48 PM EST
+update=Mon 15 Nov 2021 04:14:57 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -54,3 +54,13 @@ LibName17=SMD_PIN_ARRAY_M_0P5IN_15X2
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

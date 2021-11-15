@@ -131,9 +131,9 @@ Wire Wire Line
 Wire Wire Line
 	3450 1350 3450 1800
 Wire Wire Line
-	7040 1900 7040 2050
+	7040 1850 7040 2050
 Wire Wire Line
-	6590 1900 6590 2050
+	6590 1850 6590 2050
 Wire Wire Line
 	3600 2000 3600 1800
 Wire Wire Line
@@ -360,7 +360,7 @@ Wire Wire Line
 Wire Wire Line
 	15600 6750 15350 6750
 Wire Wire Line
-	15600 7600 15600 7750
+	15600 7550 15600 7750
 Text Label 15600 6050 2    60   ~ 0
 V+
 NoConn ~ 14850 4450
@@ -369,7 +369,7 @@ GND
 Text Label 14000 7200 2    60   ~ 0
 GND
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR01
+L power:GND #PWR01
 U 1 1 51F2B315
 P 15600 7750
 F 0 "#PWR01" H 15600 7750 30  0001 C CNN
@@ -384,7 +384,7 @@ OSC_BUF
 Text Label 13550 6850 2    60   ~ 0
 OSC
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR02
+L power:GND #PWR02
 U 1 1 51F2B23C
 P 14000 7200
 F 0 "#PWR02" H 14000 7200 30  0001 C CNN
@@ -526,7 +526,7 @@ F 3 "" H 10700 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR03
+L power:GND #PWR03
 U 1 1 51F292FB
 P 9950 1400
 F 0 "#PWR03" H 9950 1400 30  0001 C CNN
@@ -537,7 +537,7 @@ F 3 "" H 9950 1400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR04
+L power:GND #PWR04
 U 1 1 51F292FA
 P 8450 4250
 F 0 "#PWR04" H 8450 4250 30  0001 C CNN
@@ -556,7 +556,7 @@ V+
 Text Label 11450 1650 1    60   ~ 0
 V+
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR05
+L power:GND #PWR05
 U 1 1 51F292F9
 P 8450 3500
 F 0 "#PWR05" H 8450 3500 30  0001 C CNN
@@ -567,7 +567,7 @@ F 3 "" H 8450 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR06
+L power:GND #PWR06
 U 1 1 51F292F8
 P 8450 2750
 F 0 "#PWR06" H 8450 2750 30  0001 C CNN
@@ -578,7 +578,7 @@ F 3 "" H 8450 2750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR07
+L power:GND #PWR07
 U 1 1 51F292F7
 P 9950 5100
 F 0 "#PWR07" H 9950 5100 30  0001 C CNN
@@ -653,7 +653,7 @@ ADDOUT_A
 Text Label 10400 1650 1    60   ~ 0
 ADDCLK
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR08
+L power:GND #PWR08
 U 1 1 51618E9B
 P 1900 1750
 F 0 "#PWR08" H 1900 1750 30  0001 C CNN
@@ -804,7 +804,7 @@ ROW_A2
 Text Label 2350 2800 2    60   ~ 0
 ROW_A1
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR011
+L power:GND #PWR011
 U 1 1 51611903
 P 3300 5150
 F 0 "#PWR011" H 3300 5150 30  0001 C CNN
@@ -815,7 +815,7 @@ F 3 "" H 3300 5150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR012
+L power:GND #PWR012
 U 1 1 516118ED
 P 1800 2800
 F 0 "#PWR012" H 1800 2800 30  0001 C CNN
@@ -826,7 +826,7 @@ F 3 "" H 1800 2800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR013
+L power:GND #PWR013
 U 1 1 516118B1
 P 1800 3550
 F 0 "#PWR013" H 1800 3550 30  0001 C CNN
@@ -845,7 +845,7 @@ V+
 Text Label 4800 5050 3    60   ~ 0
 V+
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR014
+L power:GND #PWR014
 U 1 1 5161182B
 P 1800 4300
 F 0 "#PWR014" H 1800 4300 30  0001 C CNN
@@ -856,7 +856,7 @@ F 3 "" H 1800 4300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR015
+L power:GND #PWR015
 U 1 1 516117E9
 P 3300 1450
 F 0 "#PWR015" H 3300 1450 30  0001 C CNN
@@ -866,10 +866,8 @@ F 3 "" H 3300 1450 60  0001 C CNN
 	1    3300 1450
 	1    0    0    -1  
 $EndComp
-Text Label 6800 1050 1    60   ~ 0
-v+
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR016
+L power:GND #PWR016
 U 1 1 51611614
 P 6820 2250
 F 0 "#PWR016" H 6820 2250 30  0001 C CNN
@@ -880,7 +878,7 @@ F 3 "" H 6820 2250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_40mm_max6960_v0p1:C C2
+L Device:C C2
 U 1 1 516115D7
 P 7040 1700
 F 0 "C2" H 7090 1800 50  0000 L CNN
@@ -891,7 +889,7 @@ F 3 "" H 7040 1700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L driver_40mm_max6960_v0p1:CP1 C1
+L Device:CP1 C1
 U 1 1 516115A2
 P 6590 1700
 F 0 "C1" H 6640 1800 50  0000 L CNN
@@ -931,7 +929,7 @@ VAUX
 Wire Wire Line
 	5050 7550 5050 7700
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR017
+L power:GND #PWR017
 U 1 1 51FFE9AA
 P 5050 7700
 F 0 "#PWR017" H 5050 7700 30  0001 C CNN
@@ -960,7 +958,7 @@ Wire Wire Line
 	11700 7500 11700 7700
 Connection ~ 11400 7500
 $Comp
-L driver_40mm_max6960_v0p1:GND #PWR018
+L power:GND #PWR018
 U 1 1 51FFEEC5
 P 11700 7700
 F 0 "#PWR018" H 11700 7700 30  0001 C CNN
@@ -975,7 +973,7 @@ GND
 Text Label 9700 7500 2    60   ~ 0
 VAUX
 $Comp
-L driver_40mm_max6960_v0p1:C C3
+L Device:C C3
 U 1 1 51FFF074
 P 15600 7400
 F 0 "C3" H 15600 7500 50  0000 L CNN
@@ -1012,11 +1010,11 @@ Wire Wire Line
 Wire Wire Line
 	6810 1050 6800 1050
 Wire Wire Line
-	6590 1500 6590 1360
+	6590 1550 6590 1360
 Wire Wire Line
 	6590 1360 6810 1360
 Wire Wire Line
-	7040 1360 7040 1500
+	7040 1360 7040 1550
 Connection ~ 6810 1360
 Wire Wire Line
 	6590 2050 6820 2050
@@ -1086,7 +1084,7 @@ NoConn ~ 11200 7200
 Wire Wire Line
 	15600 6400 15600 6750
 Wire Wire Line
-	15600 6750 15600 7200
+	15600 6750 15600 7250
 Wire Wire Line
 	3450 1800 3450 2000
 Wire Wire Line
@@ -1107,4 +1105,6 @@ Wire Wire Line
 	6810 1360 7040 1360
 Wire Wire Line
 	6820 2050 7040 2050
+Text Label 6800 1050 1    60   ~ 0
+V+
 $EndSCHEMATC
