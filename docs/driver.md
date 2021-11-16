@@ -147,6 +147,14 @@ In 2013 there was an attempt to build 40mm drivers with a MAX6960, a "4-wire ser
 
 In addition to the driver, this setup required another PCB as an adapter on the back of the LED matrix. The version 0.1 ([schematics](assets/adapter_20mm-40mm_v0p1_schematic.pdf)) used a 2-layer PCB, version 0.2 ([schematic](assets/adapter_20mm-40mm_v0p2_schematic.pdf)) uses a 4-layer process. The projects for the adapters are inside the `driver_40mm_max6960_v0/adapter_20mm-40mm_v0p1` and `driver_40mm_max6960_v0/adapter_20mm-40mm_v0p2` directories, the production files are inside `driver_40mm_max6960_v0/production_v0`.
 
+## Panel Driver MAX6960 v0.1 (32×64mm²)
+{:.clear}
+
+![Rendering of the 32×64mm² driver version 0.1 using a MAX6960 front](assets/driver_32-64mm_max6960_v0p1_front.png){:.ifr .pop}
+![Rendering of the 32×64mm² driver version 0.1 using a MAX6960 back](assets/driver_32-64mm_max6960_v0p1_back.png){:.ifr .pop .clear}
+
+There is also a 32×64mm² version of an a MAX6960 driven driver using 2 pre-fabricated LED matrices with a 32mm footprint each for the display. Inside the project at `driver_32-64mm_max6960_v0`, there are [schematics](assets/adapter_32mm-64mm_v0p1_schematic.pdf) 
+
 ## Panel Driver MAX6960 v0.1 (64mm)
 {:.clear}
 
