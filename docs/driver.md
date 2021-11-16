@@ -152,8 +152,14 @@ In addition to the driver, this setup required another PCB as an adapter on the 
 
 ![Rendering of the 32×64mm² driver version 0.1 using a MAX6960 front](assets/driver_32-64mm_max6960_v0p1_front.png){:.ifr .pop}
 ![Rendering of the 32×64mm² driver version 0.1 using a MAX6960 back](assets/driver_32-64mm_max6960_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the adapter between two 32mm matrix and 32×64mm² driver front](assets/adapter_32-64mm-32-64mm_v0p1_front.png){:.ifr .pop .clear}
+![Rendering of the adapter between two 32mm matrix and 32×64mm² driver back](assets/adapter_32-64mm-32-64mm_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the adapter between one 32mm matrix and 32×64mm² driver front](assets/adapter_32-32mm-32-64mm_v0p1_front.png){:.ifr .pop .clear}
+![Rendering of the adapter between one 32mm matrix and 32×64mm² driver back](assets/adapter_32-32mm-32-64mm_v0p1_back.png){:.ifr .pop .clear}
 
-There is also a 32×64mm² version of an a MAX6960 driven driver using 2 pre-fabricated LED matrices with a 32mm footprint each for the display. Inside the project at `driver_32-64mm_max6960_v0`, there are [schematics](assets/adapter_32mm-64mm_v0p1_schematic.pdf) 
+There is also a 32×64mm² version of an a MAX6960 driven driver using 2 pre-fabricated LED matrices with a 32mm footprint each for the display. Inside the project at `driver_32-64mm_max6960_v0`, there are [schematics](assets/adapter_32mm-64mm_v0p1_schematic.pdf).
+
+The schematic for the [two matrix adapter](assets/adapter_32-64mm-32-64mm_v0p1_schematic.pdf) are used in the design files at `driver_32-64mm_max6960_v0/adapter_32-64mm-32-64mm` and the [one matrix adapter](assets/adapter_32-32mm-32-64mm_v0p1_schematic.pdf) inside `driver_32-64mm_max6960_v0/adapter_32-32mm-32-64mm`, but he design files are in `driver_32-64mm_max6960_v0/production_v0/adapter_32-64mm-32-64mm_v0p1.zip` and `driver_32-64mm_max6960_v0/production_v0/adapter_32-32mm-32-64mm_v0p1.zip` respectively.
 
 ## Panel Driver MAX6960 v0.1 (64mm)
 {:.clear}
