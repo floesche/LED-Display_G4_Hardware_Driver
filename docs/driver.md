@@ -121,11 +121,19 @@ The 32mm driver v0.2 was designed in 2012. Compared to [version 0.1](#driver-32-
 
 The 32mm driver v0.1 was designed in 2012 and is basically the same as the Generation 2 panel. The Find the KiCad design files at `driver_32mm_atmega_v0p1` and have a look at the [schematics](assets/driver_32mm_atmega_v0p1_schematic.pdf).
 
+## Panel Driver MAX6960 v0.1 (32mm)
+{:.clear}
+
+![Rendering of the 32mm driver version 0.1 using a MAX6960 front](assets/driver_32mm_max6960_v0p1_front.png){:.ifr .pop}
+![Rendering of the 32mm driver version 0.1 using a MAX6960 back](assets/driver_32mm_max6960_v0p1_back.png){:.ifr .pop .clear}
+
+In 2013 there was an attempt to build 32mm drivers with a MAX6960, a "4-wire serially interfaced 8×8 matrix graphics LED driver" chip by Maxim Integrated. Have a look at the [schematics](assets/driver_32mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_32mm_max6960_v0`.
+
 ## Panel Driver MAX6960 v0.1 (40mm)
 {:.clear}
 
 ![Rendering of the 40mm driver version 0.1 using a MAX6960 front](assets/driver_40mm_max6960_v0p1_front.png){:.ifr .pop}
-![Rendering of the 32mm driver version 0.1 using a MAX6960 back](assets/driver_40mm_max6960_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version 0.1 using a MAX6960 back](assets/driver_40mm_max6960_v0p1_back.png){:.ifr .pop .clear}
 ![Rendering of the adapter between 20mm matrix and 40mm driver v0.1 front](assets/adapter_20mm-40mm_v0p1_front.png){:.ifr .pop .clear}
 ![Rendering of the adapter between 20mm matrix and 40mm driver v0.1 back](assets/adapter_20mm-40mm_v0p1_back.png){:.ifr .pop .clear}
 ![Rendering of the adapter between 20mm matrix and 40mm driver v0.2 front](assets/adapter_20mm-40mm_v0p2_front.png){:.ifr .pop .clear}
