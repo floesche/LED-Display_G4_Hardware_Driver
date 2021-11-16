@@ -126,8 +126,12 @@ The 32mm driver v0.1 was designed in 2012 and is basically the same as the Gener
 
 ![Rendering of the 32mm driver version 0.1 using a MAX6960 front](assets/driver_32mm_max6960_v0p1_front.png){:.ifr .pop}
 ![Rendering of the 32mm driver version 0.1 using a MAX6960 back](assets/driver_32mm_max6960_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the adapter between 32mm matrix and 32mm driver v0.1 front](assets/adapter_32mm-32mm_v0p1_front.png){:.ifr .pop .clear}
+![Rendering of the adapter between 32mm matrix and 32mm driver v0.1 back](assets/adapter_32mm-32mm_v0p1_back.png){:.ifr .pop .clear}
 
 In 2013 there was an attempt to build 32mm drivers with a MAX6960, a "4-wire serially interfaced 8×8 matrix graphics LED driver" chip by Maxim Integrated. Have a look at the [schematics](assets/driver_32mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_32mm_max6960_v0`.
+
+In addition to the driver, this setup required another PCB as an adapter on the back of the LED matrix. The version 0.1 ([schematics](assets/adapter_32mm-32mm_v0p1_schematic.pdf)) and the project is inside `driver_32mm_max6960_v0/adapter_32mm-32mm_v0`.
 
 ## Panel Driver MAX6960 v0.1 (40mm)
 {:.clear}

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name adapter_32mm-32mm)(type KiCad)(uri ${KIPRJMOD}/adapter_32mm-32mm.pretty)(options "")(descr ""))
+)
