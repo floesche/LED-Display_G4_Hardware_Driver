@@ -14,7 +14,7 @@ The driver board measures 40×40mm² and has four 4×4 male pins (>=v0.2) or two
 
 Historically, the driver used four off-the-shelf LED panels for each of the quadrants (<=v0.3). Since then, each of the quadrants has its own micro controller unit (MCU) that handles a matrix of 8×8 LEDs. The panels with two 2×6 connectors use I²C for the communication between comm and driver, since version v0.2 SPI was used for this internal communication as well. The MCUs translate the brightness commands for pixels into pulse-width modulation for individual LEDs.
 
-![Driver version 2.0 vs version 1.0](assets/driver_v2p0_back_wiring_photo.jpg "Driver version 2.0 vs version 1.0"){:.ifr .pop}
+![Driver version 2.0 vs version 1.0](assets/driver_v2p0_back_wiring_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
 The difference between driver-v2 and driver-v1 is the internal wiring of individual columns. The image on the right shows the LEDs on a driver with an overlay on how they are connected. The cyan and magenta lines show, which LEDs belong to a single column in driver-v2.x, the yellow lines on the right show the connections in driver-v1.x. Currently, we only share the design files for a driver-v1.x.
 
@@ -23,7 +23,7 @@ If you intend to use one-colored drivers, we recommend driver-v1 as they are sli
 ## Panel Driver PCB v2.x (40mm)
 {:#driver-v2 .clear}
 
-![Driver version 2.0](assets/driver_v2p0_front_photo.jpg "Driver version 2.0"){:.ifr .pop}
+![Driver version 2.0](assets/driver_v2p0_front_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
 Driver boards >=v2.0 are PCBs measuring 40×40mm² and with the same connectors as the driver-v1.x. The strongest visible difference is in the location of the MCUs: in version-2.x the four square ATmega328 chips positioned in a straight line. The difference is in how the LEDs are connected: the first LED from the first row is connected to the second LED in the second row, the first in the third row,  the second in the fourth row, and so on. Basically, two neighboring columns are interleaved. This positioning increases the color resolution for multicolored displays especially with two colors. In most matrices, individual LEDs are addressed by closing a circuit for a row and column at the same time. The LED at the intersection of the activated row and column then turns on. Either the row or column needs to provide the current limiting resistor that is specific to the type of LED it connects to.
 
@@ -34,7 +34,7 @@ Functionally, the driver-v2.x is very similar to the driver-v1.x. During the cre
 ## Panel Driver PCB v1.x (40mm)
 {:#driver-v1 .clear}
 
-![Driver version 1.2](assets/driver_v1p2_front_photo.jpg){:.ifr .pop}
+![Driver version 1.2](assets/driver_v1p2_front_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
 Driver boards >=v1.2 are 6 layer PCBs measuring 40×40mm². Note the different position of the MCUs, which makes this version easily distinguishable from driver-v2.x. The most recent production files are archived in `driver_40mm_atmega_v1/production_v1/driver-v1p7.zip` with a changelog available in the `driver_40mm_atmega_v1/production_v1/README.mdown` file.
 
@@ -52,8 +52,9 @@ The driver board was designed in-house at Janelia's [jET](https://www.janelia.or
 
 # Historic designs
 
-![Photo of a 40mm driver version 0.4 without LEDs](assets/driver_v0p4_front_photo.jpg "Photo of a 40mm driver version 0.4 without LEDs"){:.ifr .pop}
-![Photo of a 40mm driver version 0.1…0.4 with an LED matrix](assets/driver_v0p2_back_photo.jpg "Photo of a 40mm driver version 0.1…0.4 with an LED matrix"){:.ifr .pop .clear}
+![Photo of a 40mm driver version 0.4 without LEDs](assets/driver_v0p4_front_photo.jpg){:.ifr .pop}
+
+![Photo of a 40mm driver version 0.1…0.4 with an LED matrix](assets/driver_v0p2_back_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
 These designs are kept for historic reasons and to debug existing systems. If you have one of them, you probably know what to do and just need the files. If you are building a new system, don't use them. You can find the designs of the older drivers in the same repository as the [comm board]({{site.baseurl}}/Generation%204/Hardware/docs/comm.html).
 
@@ -64,16 +65,18 @@ The difference between the historic versions (except [v0.1](#driver-v0p1)!) is m
 ## Panel Driver v0.5 (40mm, WIP)
 {:#driver-v0p5 .clear}
 
-![Rendering of the 40mm driver version 0.5 front](assets/driver_40mm_atmega_v0p5_front.png "Rendering of the 40mm driver version 0.5 front"){:.ifr .pop}
-![Rendering of the 40mm driver version 0.5 back](assets/driver_40mm_atmega_v0p5_back.png "Rendering of the 40mm driver version 0.5 back"){:.ifr .pop .clear}
+![Rendering of the 40mm driver version v0.5 (front)](assets/driver_40mm_atmega_v0p5_front.png){:.ifr .pop}
+
+![Rendering of the 40mm driver version v0.5](assets/driver_40mm_atmega_v0p5_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 Version 0.5 was the first attempt to build a driver with a custom LED matrix instead of the pre-fabricated 20×20mm² LED matrices. This project never finished as it was handed over from IO Rodeo to jET at the time, but the work-in-progress files are archived at `driver_40mm_atmega_v0p5`. The [schematics](assets/driver_40mm_atmega_v0p5_schematic.pdf) are very similar to previous versions, replacing the pre-fabricated LED matrices with a custom grid of rows and columns.
 
 ## Panel Driver v0.4 (40mm)
 {:#driver-v0p4 .clear}
 
-![Rendering of the 40mm driver version 0.4 front](assets/driver_40mm_atmega_v0p4_front.png){:.ifr .pop}
-![Rendering of the 40mm driver version 0.4 back](assets/driver_40mm_atmega_v0p4_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version v0.4 (front)](assets/driver_40mm_atmega_v0p4_front.png){:.ifr .pop}
+
+![Rendering of the 40mm driver version v0.4](assets/driver_40mm_atmega_v0p4_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 This is the latest version of the driver with prefabricated LED matrices.
 
@@ -82,24 +85,27 @@ Find the KiCad design files at `driver_40mm_atmega_v0p4` and have a look at the 
 ## Panel Driver v0.3 (40mm)
 {:#driver-v0p3 .clear}
 
-![Rendering of the 40mm driver version 0.3 front](assets/driver_40mm_atmega_v0p3_front.png){:.ifr .pop}
-![Rendering of the 40mm driver version 0.3 back](assets/driver_40mm_atmega_v0p3_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version v0.3 (front)](assets/driver_40mm_atmega_v0p3_front.png){:.ifr .pop}
+
+![Rendering of the 40mm driver version v0.3](assets/driver_40mm_atmega_v0p3_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 Find the KiCad design files at `driver_40mm_atmega_v0p3` and have a look at the [schematics](assets/driver_40mm_atmega_v0p3_schematic.pdf).
 
 ## Panel Driver v0.2 (40mm)
 {:#driver-v0p2 .clear}
 
-![Rendering of the 40mm driver version 0.2 front](assets/driver_40mm_atmega_v0p2_front.png){:.ifr .pop}
-![Rendering of the 40mm driver version 0.2 back](assets/driver_40mm_atmega_v0p2_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version v0.2 (front)](assets/driver_40mm_atmega_v0p2_front.png){:.ifr .pop}
+
+![Rendering of the 40mm driver version v0.2](assets/driver_40mm_atmega_v0p2_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 Find the KiCad design files at `driver_40mm_atmega_v0p1` and have a look at the [schematics](assets/driver_40mm_atmega_v0p2_schematic.pdf).
 
 ## Panel Driver v0.1 (40mm)
 {:#driver-v0p1 .clear}
 
-![Rendering of the 40mm driver version 0.1 front](assets/driver_40mm_atmega_v0p1_front.png){:.ifr .pop}
-![Rendering of the 40mm driver version 0.1 back](assets/driver_40mm_atmega_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the 40mm driver version 0.1 (front)](assets/driver_40mm_atmega_v0p1_front.png){:.ifr .pop}
+
+![Rendering of the 40mm driver version 0.1](assets/driver_40mm_atmega_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 The first driver with ATmega MCU used I²C for the communication between controller and arena. They are not compatible with later versions.
 
@@ -108,26 +114,30 @@ Find the KiCad design files at `driver_40mm_atmega_v0p1` and have a look at the 
 ## Panel Driver v0.2 (32mm, WIP)
 {:#driver-32-v0p2 .clear}
 
-![Rendering of the 32mm driver version 0.2 front](assets/driver_32mm_atmega_v0p2_front.png){:.ifr .pop}
-![Rendering of the 32mm driver version 0.2 back](assets/driver_32mm_atmega_v0p2_back.png){:.ifr .pop .clear}
+![Rendering of the 32mm driver version 0.2 (front)](assets/driver_32mm_atmega_v0p2_front.png){:.ifr .pop}
+
+![Rendering of the 32mm driver version 0.2](assets/driver_32mm_atmega_v0p2_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 The 32mm driver v0.2 was designed in 2012. Compared to [version 0.1](#driver-32-v0p1) it uses MOSFETs. The [schematics](assets/driver_32mm_atmega_v0p2_schematic.pdf) have already been updated, the board design itself hasn't been done yet. The Find the KiCad design files at `driver_32mm_atmega_v0p2`.
 
 ## Panel Driver v0.1 (32mm)
 {:#driver-32-v0p1 .clear}
 
-![Rendering of the 32mm driver version 0.1 front](assets/driver_32mm_atmega_v0p1_front.png){:.ifr .pop}
-![Rendering of the 32mm driver version 0.1 back](assets/driver_32mm_atmega_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the 32mm driver version 0.1 (front)](assets/driver_32mm_atmega_v0p1_front.png){:.ifr .pop}
+![Rendering of the 32mm driver version 0.1](assets/driver_32mm_atmega_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 The 32mm driver v0.1 was designed in 2012 and is basically the same as the Generation 2 panel. The Find the KiCad design files at `driver_32mm_atmega_v0p1` and have a look at the [schematics](assets/driver_32mm_atmega_v0p1_schematic.pdf).
 
 ## Panel Driver MAX6960 v0.1 (32mm)
 {:.clear}
 
-![Rendering of the 32mm driver version 0.1 using a MAX6960 front](assets/driver_32mm_max6960_v0p1_front.png){:.ifr .pop}
-![Rendering of the 32mm driver version 0.1 using a MAX6960 back](assets/driver_32mm_max6960_v0p1_back.png){:.ifr .pop .clear}
-![Rendering of the adapter between 32mm matrix and 32mm driver v0.1 front](assets/adapter_32mm-32mm_v0p1_front.png){:.ifr .pop .clear}
-![Rendering of the adapter between 32mm matrix and 32mm driver v0.1 back](assets/adapter_32mm-32mm_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the 32mm driver version 0.1 using a MAX6960 (front)](assets/driver_32mm_max6960_v0p1_front.png){:.ifr .pop}
+
+![Rendering of the 32mm driver version 0.1 using a MAX6960](assets/driver_32mm_max6960_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
+
+![Rendering of the adapter between 32mm matrix and 32mm driver v0.1 (front)](assets/adapter_32mm-32mm_v0p1_front.png){:.ifr .pop .clear}
+
+![Rendering of the adapter between 32mm matrix and 32mm driver v0.1](assets/adapter_32mm-32mm_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 In 2013 there was an attempt to build 32mm drivers with a MAX6960, a "4-wire serially interfaced 8×8 matrix graphics LED driver" chip by Maxim Integrated. Have a look at the [schematics](assets/driver_32mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_32mm_max6960_v0`.
 
@@ -137,11 +147,16 @@ In addition to the driver, this setup required another PCB as an adapter on the 
 {:.clear}
 
 ![Rendering of the 40mm driver version 0.1 using a MAX6960 front](assets/driver_40mm_max6960_v0p1_front.png){:.ifr .pop}
-![Rendering of the 40mm driver version 0.1 using a MAX6960 back](assets/driver_40mm_max6960_v0p1_back.png){:.ifr .pop .clear}
-![Rendering of the adapter between 20mm matrix and 40mm driver v0.1 front](assets/adapter_20mm-40mm_v0p1_front.png){:.ifr .pop .clear}
-![Rendering of the adapter between 20mm matrix and 40mm driver v0.1 back](assets/adapter_20mm-40mm_v0p1_back.png){:.ifr .pop .clear}
-![Rendering of the adapter between 20mm matrix and 40mm driver v0.2 front](assets/adapter_20mm-40mm_v0p2_front.png){:.ifr .pop .clear}
-![Rendering of the adapter between 20mm matrix and 40mm driver v0.2 back](assets/adapter_20mm-40mm_v0p2_back.png){:.ifr .pop .clear}
+
+![Rendering of the 40mm driver version 0.1 using a MAX6960](assets/driver_40mm_max6960_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
+
+![Rendering of the adapter between 20mm matrix and 40mm driver v0.1 (front)](assets/adapter_20mm-40mm_v0p1_front.png){:.ifr .pop .clear}
+
+![Rendering of the adapter between 20mm matrix and 40mm driver v0.1](assets/adapter_20mm-40mm_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
+
+![Rendering of the adapter between 20mm matrix and 40mm driver v0.2 (front)](assets/adapter_20mm-40mm_v0p2_front.png){:.ifr .pop .clear}
+
+![Rendering of the adapter between 20mm matrix and 40mm driver v0.2](assets/adapter_20mm-40mm_v0p2_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 In 2013 there was an attempt to build 40mm drivers with a MAX6960, a "4-wire serially interfaced 8×8 matrix graphics LED driver" chip by Maxim Integrated. Have a look at the [schematics](assets/driver_40mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_40mm_max6960_v0`.
 
@@ -150,14 +165,21 @@ In addition to the driver, this setup required another PCB as an adapter on the 
 ## Panel Driver MAX6960 v0.1 (32×64mm²)
 {:.clear}
 
-![Rendering of the 32×64mm² driver version 0.1 using a MAX6960 front](assets/driver_32-64mm_max6960_v0p1_front.png){:.ifr .pop}
-![Rendering of the 32×64mm² driver version 0.1 using a MAX6960 back](assets/driver_32-64mm_max6960_v0p1_back.png){:.ifr .pop .clear}
-![Rendering of the adapter between two 32mm matrix and 32×64mm² driver front](assets/adapter_32-64mm-32-64mm_v0p1_front.png){:.ifr .pop .clear}
-![Rendering of the adapter between two 32mm matrix and 32×64mm² driver back](assets/adapter_32-64mm-32-64mm_v0p1_back.png){:.ifr .pop .clear}
-![Rendering of the adapter between one 32mm matrix and 32×64mm² driver front](assets/adapter_32-32mm-32-64mm_v0p1_front.png){:.ifr .pop .clear}
-![Rendering of the adapter between one 32mm matrix and 32×64mm² driver back](assets/adapter_32-32mm-32-64mm_v0p1_back.png){:.ifr .pop .clear}
-![Rendering of the adapter between one 32mm matrix and 32×64mm² driver with diodes front](assets/adapter_32-32mm-32-64mm-D_v0p1_front.png){:.ifr .pop .clear}
-![Rendering of the adapter between one 32mm matrix and 32×64mm² driver with diodes back](assets/adapter_32-32mm-32-64mm-D_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the 32×64mm² driver version 0.1 using a MAX6960 (front)](assets/driver_32-64mm_max6960_v0p1_front.png){:.ifr .pop}
+
+![Rendering of the 32×64mm² driver version 0.1 using a MAX6960](assets/driver_32-64mm_max6960_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
+
+![Rendering of the adapter between two 32mm matrix and 32×64mm² driver (front)](assets/adapter_32-64mm-32-64mm_v0p1_front.png){:.ifr .pop .clear}
+
+![Rendering of the adapter between two 32mm matrix and 32×64mm² driver](assets/adapter_32-64mm-32-64mm_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
+
+![Rendering of the adapter between one 32mm matrix and 32×64mm² driver (front)](assets/adapter_32-32mm-32-64mm_v0p1_front.png){:.ifr .pop .clear}
+
+![Rendering of the adapter between one 32mm matrix and 32×64mm² driver](assets/adapter_32-32mm-32-64mm_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
+
+![Rendering of the adapter between one 32mm matrix and 32×64mm² driver with diodes (front)](assets/adapter_32-32mm-32-64mm-D_v0p1_front.png){:.ifr .pop .clear}
+
+![Rendering of the adapter between one 32mm matrix and 32×64mm² driver with diodes](assets/adapter_32-32mm-32-64mm-D_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 There is also a 32×64mm² version of an a MAX6960 driven driver using 2 pre-fabricated LED matrices with a 32mm footprint each for the display. Inside the project at `driver_32-64mm_max6960_v0`, there are [schematics](assets/adapter_32mm-64mm_v0p1_schematic.pdf).
 
@@ -166,9 +188,12 @@ The schematic for the [two matrix adapter](assets/adapter_32-64mm-32-64mm_v0p1_s
 ## Panel Driver MAX6960 v0.1 (64mm)
 {:.clear}
 
-![Rendering of the 64mm driver version 0.1 using a MAX6960 front](assets/driver_64mm_max6960_v0p1_front.png){:.ifr .pop}
-![Rendering of the 64mm driver version 0.1 using a MAX6960 back](assets/driver_64mm_max6960_v0p1_back.png){:.ifr .pop .clear}
-![Rendering of the adapter between 32mm matrix and 64mm driver front](assets/adapter_32mm-64mm_v0p1_front.png){:.ifr .pop .clear}
-![Rendering of the adapter between 32mm matrix and 64mm driver back](assets/adapter_32mm-64mm_v0p1_back.png){:.ifr .pop .clear}
+![Rendering of the 64mm driver version 0.1 using a MAX6960 (front)](assets/driver_64mm_max6960_v0p1_front.png){:.ifr .pop}
+
+![Rendering of the 64mm driver version 0.1 using a MAX6960](assets/driver_64mm_max6960_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
+
+![Rendering of the adapter between 32mm matrix and 64mm driver (front)](assets/adapter_32mm-64mm_v0p1_front.png){:.ifr .pop .clear}
+
+![Rendering of the adapter between 32mm matrix and 64mm driver](assets/adapter_32mm-64mm_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 There is also a 64mm version of an a MAX6960 driven driver using 4 pre-fabricated LED matrices with a 32mm footprint each for the display. Inside the project at `driver_64mm_max6960_v0/adapter_32mm-64mm_v0p1`, there are [schematics](assets/adapter_32mm-64mm_v0p1_schematic.pdf) and design files for an adapter pcb between the 32mm footprint of the pLED matrices and the 64mm of the driver. Judging by the available files, this designer was presumably never produced. Have a look at the [schematics](assets/driver_64mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_64mm_max6960_v0p1`.
