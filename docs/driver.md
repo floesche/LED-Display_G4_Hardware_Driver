@@ -29,7 +29,7 @@ Driver boards >=v2.0 are PCBs measuring 40×40mm² and with the same connectors 
 
 For the G4 drivers, a column of eight LEDs within a quadrant is connected to such a resistor. This means, all LEDs of a column need to be of the same type. If you want to use differently colored LEDs, then they need to be organized by columns with their according resistor. For a bi-colored panel where the electrical columns are organized in physical columns, even columns would have one color *A*, odd columns another *B*. A moving bar of color *A* would therefore move from column 1 to 3 to 5 and so on, skipping the columns of different color. By interweaving the colors in such a checkerboard layout, a moving bar of color *A* could move at a higher resolution from columns 1 to 2 to 3 and so on. This comes at the cost of density, so driver-v1.x and driver-v2.x are for different use cases.
 
-Functionally, the driver-v2.x is very similar to the driver-v1.x. During the creation of visual patterns, a [configuration option has to be set]({{site.baseurl}}/Generation%204/Display_Tools/pattern-generator.md#checkerboard), everything is the same for setting up and running an arena with either driver-v1.x or driver-v2.x. But because of this small difference, mixing different versions of driver-boards in the same arena is currently not supported.
+Functionally, the driver-v2.x is very similar to the driver-v1.x. During the creation of visual patterns, a [configuration option has to be set]({{site.baseurl}}/Generation%204/Display_Tools/docs/pattern-generator.html#checkerboard), everything is the same for setting up and running an arena with either driver-v1.x or driver-v2.x. But because of this small difference, mixing different versions of driver-boards in the same arena is currently not supported.
 
 ## Panel Driver PCB v1.x (40mm)
 {:#driver-v1 .clear}
@@ -42,7 +42,7 @@ The Panel Driver PCBs are built from 6 layers. The BOTTOM layer contains all LED
 
 ### Function
 
-This paragraph is a high-level description of what is detailed in the [schematics](assets/driver_40mm_atmega_v1_schematic). The driver PCB receives signals on the four connectors (J1…J4), one for each quadrant. Each quadrant uses an ATmega328P-MU (U1…U4) to turn the LEDs (D1…256) on and off. The LEDs in each of the four quadrants are organized in an 8×8 matrix. The ATmega use a row-scan algorithm, where at each point in time a single row is active. From this row any of the 8 LEDs can be turned on or off. Brightness is regulated through pulse width modulation. Each column uses its own resistor, therefore LEDs of different colors can be used for each column.
+This paragraph is a high-level description of what is detailed in the [schematics](assets/driver_40mm_atmega_v1_schematic.pdf). The driver PCB receives signals on the four connectors (J1…J4), one for each quadrant. Each quadrant uses an ATmega328P-MU (U1…U4) to turn the LEDs (D1…256) on and off. The LEDs in each of the four quadrants are organized in an 8×8 matrix. The ATmega use a row-scan algorithm, where at each point in time a single row is active. From this row any of the 8 LEDs can be turned on or off. Brightness is regulated through pulse width modulation. Each column uses its own resistor, therefore LEDs of different colors can be used for each column.
 
 ### Design
 
@@ -172,8 +172,3 @@ The schematic for the [two matrix adapter](assets/adapter_32-64mm-32-64mm_v0p1_s
 ![Rendering of the adapter between 32mm matrix and 64mm driver back](assets/adapter_32mm-64mm_v0p1_back.png){:.ifr .pop .clear}
 
 There is also a 64mm version of an a MAX6960 driven driver using 4 pre-fabricated LED matrices with a 32mm footprint each for the display. Inside the project at `driver_64mm_max6960_v0/adapter_32mm-64mm_v0p1`, there are [schematics](assets/adapter_32mm-64mm_v0p1_schematic.pdf) and design files for an adapter pcb between the 32mm footprint of the pLED matrices and the 64mm of the driver. Judging by the available files, this designer was presumably never produced. Have a look at the [schematics](assets/driver_64mm_max6960_v0p1_schematic.pdf) and find the design files at `driver_64mm_max6960_v0p1`.
-
-## other Panel Drivers
-{:.clear}
-
-The [panel_g4_hardware](https://github.com/floesche/panels_g4_hardware) repository contains two other directory trees with designs using max6960 or stm32 MCUs. They were initial prototypes from around 2013 but should not exist in the wild. [Get in contact]({{site.baseurl}}/Contact) if you have one and need explanation about the nature of these historic files.
