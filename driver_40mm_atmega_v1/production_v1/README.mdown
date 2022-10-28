@@ -2,7 +2,7 @@
 
 The `.art` files are GERBER RS274X files.
 
-The `Assembly.art` file contains the constraints for production. For example, the copper layers are as follows: `TOP`, `GND`, `LAYER_1`, `LAYER_2` `PWR`, `BOTTOM`.
+The `Assembly.art` file contains the constraints for production. For example, the copper layers are as follows: `TOP`, `GND`, `LAYER_1`, `LAYER_2`, `PWR`, `BOTTOM`.
 
 * `Assembly.art` - Assembly instructions
 * `driver_L1-6.drl` - Excellon Drill file between Layer 1 and Layer 6. Metric 3:3, auto-tool select, LZ, no repeat codes.
@@ -25,6 +25,7 @@ The `Assembly.art` file contains the constraints for production. For example, th
 
 # Changelog
 
+* 2022-10-28 v1.8: regenerate `SilkScreen_Top.art`.€ý,€ý,
 * 2020-11-12 v1.7: regenerate paste layers, updated brd file
 * 2020-11-11 v1.6: gerber with higher precision (4:6 vs 1:3 or 3:3)
 * 2020-09-10 v1.5: updated paste layer without vias
