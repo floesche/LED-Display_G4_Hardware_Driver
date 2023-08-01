@@ -1,0 +1,3 @@
+The script set_led_pos.py is from the original v0.5 design (~2016). It directly
+modifies the .kicad_pcb file rather than using the kicad python api.  This file
+should be updated to using the python api.

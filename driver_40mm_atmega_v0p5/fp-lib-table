@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name driver_40mm_atmega_v0p5)(type KiCad)(uri ${KIPRJMOD}/driver_40mm_atmega_v0p5.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "driver_40mm_atmega_v0p5")(type "KiCad")(uri "${KIPRJMOD}/driver_40mm_atmega_v0p5.pretty")(options "")(descr ""))
+  (lib (name "driver_custom")(type "KiCad")(uri "${KIPRJMOD}/driver_custom.pretty")(options "")(descr ""))
 )

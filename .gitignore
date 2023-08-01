@@ -200,4 +200,9 @@ cython_debug/
 # Support for Project snippet scope
 !.vscode/*.code-snippets
 
+# Backup directories
+#driver_40mm_atmega_v0p5-backups
+#mosfet_switch-backups
+*-backups
+
 # End of https://www.toptal.com/developers/gitignore/api/kicad,python,visualstudiocode
