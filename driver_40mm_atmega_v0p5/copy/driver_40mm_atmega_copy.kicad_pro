@@ -172,6 +172,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.15,
         0.2,
         0.25,
@@ -183,7 +184,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.35,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
           "drill": 0.3
         },
         {
@@ -416,7 +421,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "driver_40mm_atmega_v0p5.kicad_pro",
+    "filename": "driver_40mm_atmega.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -428,30 +433,30 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.6,
-        "microvia_drill": 0.3,
+        "microvia_diameter": 0.35,
+        "microvia_drill": 0.2,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.125,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.6,
+        "microvia_diameter": 0.5,
         "microvia_drill": 0.3,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.6,
+        "track_width": 0.2,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -1065,7 +1070,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "driver_40mm_atmega_v0p5.dsn",
+      "specctra_dsn": "",
       "step": "",
       "vrml": ""
     },
