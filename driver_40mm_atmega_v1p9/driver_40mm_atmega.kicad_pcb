@@ -24179,7 +24179,7 @@
   (gr_text "TOP" (at 88.49 52.84) (layer "B.SilkS") (tstamp 193ed2b4-bec9-4a1f-9f07-f3a8f5264656)
     (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
   )
-  (gr_text "Panels G4 Driver V0.5 R1" (at 50.94 70 90) (layer "B.SilkS") (tstamp b6054c88-f5b6-456e-8d4b-c6af34bc90ff)
+  (gr_text "Panels G4 Driver V1.9R1" (at 51 70 90) (layer "B.SilkS") (tstamp b0ac9f2f-7d18-4306-9233-84efeeb740ce)
     (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
   )
 
