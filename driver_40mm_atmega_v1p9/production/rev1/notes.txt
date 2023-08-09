@@ -1,1 +1,4 @@
-The CPL file is still not finalized!!!! Please wait before order the PCBs. 
+The CPL file is still not finalized! I've checked the placements of all componets we
+are sourcing from JLCPCB. However, I havent' check the global sourcing components i.e., 
+P1-P4, IC1-IC4, Q1-Q16. Make sure the orientation of these components looks good before
+ordering the PCB assembly. 
