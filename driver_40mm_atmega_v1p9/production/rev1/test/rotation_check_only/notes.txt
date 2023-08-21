@@ -1,0 +1,9 @@
+===============================================================================
+NOTE: These files should NOT be used when ordering the PCBs!!!!!
+===============================================================================
+
+The BOM and CPL files in the this directory have been created to help check the
+orientations of the components.  In order to do this some of the parts in the
+BOM have been replaced with similar, but incorrect, components which will
+display correctly during JLCPCB submission processes.  
+

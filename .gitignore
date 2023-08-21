@@ -25,8 +25,8 @@ fp-info-cache
 *.net
 
 # Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+#*.dsn
+#*.ses
 
 # Exported BOM files
 *.xml
